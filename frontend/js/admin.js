@@ -138,7 +138,7 @@ function rejectFood(id) {
 }
 
 function loadAnalytics() {
-  fetch("/admin/analytics", {
+  fetch("https://freshsave-9dvr.onrender.com/admin/analytics", {
     headers: { "Role": "admin" }
   })
   .then(res => res.json())
@@ -204,7 +204,7 @@ function loadAnalytics() {
 }
 
 function loadStats() {
-  fetch("/admin/analytics", {
+  fetch("https://freshsave-9dvr.onrender.com/admin/analytics", {
     headers: { "Role": "admin" }
   })
   .then(res => res.json())
@@ -216,7 +216,7 @@ function loadStats() {
 }
 
 function loadFoodMonitor() {
-  fetch("/admin/food-listings")
+  fetch("https://freshsave-9dvr.onrender.com/admin/food-listings")
     .then(res => res.json())
     .then(data => {
   
@@ -264,7 +264,7 @@ function loadFoodMonitor() {
 }
 
 function loadActivity() {
-  fetch("/admin/activity", {
+  fetch("https://freshsave-9dvr.onrender.com/admin/activity", {
     headers: { "Role": "admin" }
   })
   .then(res => res.json())
@@ -301,7 +301,7 @@ function getActivityIcon(type) {
 }
 
 function loadUsers() {
-  fetch("/admin/users", {
+  fetch("https://freshsave-9dvr.onrender.com/admin/users", {
     headers: { "Role": "admin" }
   })
   .then(res => res.json())

@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function loadLiveStats(){
 
-fetch("/user/stats/live")
+fetch("https://freshsave-9dvr.onrender.com/user/stats/live")
 .then(res => res.json())
 .then(data => {
 

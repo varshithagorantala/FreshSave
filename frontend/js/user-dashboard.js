@@ -80,7 +80,7 @@ function fetchFoodData(userLat, userLng){
 
   markersLayer.clearLayers();
 
-  fetch("/user/available-food")
+  fetch("https://freshsave-9dvr.onrender.com/user/available-food")
     .then(res => res.json())
     .then(data => {
       
@@ -240,7 +240,7 @@ function requestFood(foodId) {
     return;
   }
 
-  fetch("/user/request-food", {
+  fetch("https://freshsave-9dvr.onrender.com/user/request-food", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

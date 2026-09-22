@@ -22,7 +22,7 @@ form.addEventListener("submit", async (e) => {
   }
 
   try {
-    const response = await fetch("/auth/register", {
+    const response = await fetch("https://freshsave-9dvr.onrender.com/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

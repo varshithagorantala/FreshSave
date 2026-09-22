@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
 });
 
 
-fetch("/auth/login", {
+fetch("https://freshsave-9dvr.onrender.com/auth/login", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({

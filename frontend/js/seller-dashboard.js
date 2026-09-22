@@ -240,7 +240,7 @@ document.getElementById("add-food-form").addEventListener("submit", function(e) 
   const lat = document.getElementById("lat").value;
   const lng = document.getElementById("lng").value;
 
-  fetch("/seller/add-food", {
+  fetch("https://freshsave-9dvr.onrender.com/seller/add-food", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
