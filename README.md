@@ -76,10 +76,8 @@ Food waste is both a sustainability and a social equity problem. FreshSave was b
 
 ## 👤 Author
 
-**Danish Sami**
+**Varshitha Gorantala**
 B.Tech CSE — Talla Padmavathi College of Engineering
-[LinkedIn](https://www.linkedin.com/in/danishsami07/) • [GitHub](https://github.com/DanishSami13)
-
 ---
 
 ## 📄 License
